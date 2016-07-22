@@ -1,0 +1,7 @@
+hello_dco.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\hello_dco\Controller\HelloController::content'
+    _title: 'Hello DCO 2016'
+  requirements:
+    _permission: 'access content'
